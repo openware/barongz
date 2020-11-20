@@ -1,0 +1,11 @@
+displayName: Barong Authz Plugin
+type: middleware
+
+import: github.com/openware/barongz
+
+summary: '[Barong] Add Request Header'
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: '{{URL}}'
